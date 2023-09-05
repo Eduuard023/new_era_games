@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Era Games - A sua loja de jogos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2">
+                <i class="bi bi-controller"></i>
+                New Era Games
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#about" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#sorteio" class="nav-link">
+                            <i class="bi bi-gift"></i>
+                            Sorteio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#store" class="nav-link">
+                            <i class="bi bi-shop"></i>
+                            Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contact" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img id="img-carousel" src="./img/god_of_war.png" alt="god-of-war">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img id="img-carousel" src="./img/Starfield-game.png" alt="starfield">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img id="img-carousel" src="./img/re4.jpg" alt="resident evil 4">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img id="img-carousel" src="./img/promo.jpg" alt="promoção play">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img id="img-carousel" src="./img/baldurs.webp" alt="baldurs gate">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
+                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="carousel" class="active" data-bs-slide-to=0></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to=1></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to=2></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to=3></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to=4></button>
+                    <button type="button" data-bs-target="carousel" data-bs-slide-to=5></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./img/mario.webp" class="d-block w-100 rounded" alt="foto espaço do restaurante">
+                        </div>
+                        <div class="col-md-7  mt-3 mt-md-0">
+                            <h2 class="section-title">Quem <span>somos</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem corporis eum reprehenderit aperiam beatae quas ducimus excepturi a possimus necessitatibus, asperiores omnis alias deleniti esse maiores. Numquam ab laborum et!
+                            </p>
+                            <h3 class="section-title">Como ativar <span>o seu jogo</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, maiores? Nam nostrum consequatur architecto dicta! Cumque quis rerum maiores debitis repudiandae? Reiciendis consectetur necessitatibus nobis ea dicta perspiciatis voluptatem minima.</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sorteio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"><span>Sorteios</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./img/sorteio.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-gift-fill"></i>
+                            PS5 + Playstation VR2
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sit veniam dolor architecto odio provident ex voluptate perspiciatis magni officiis, maxime ipsum exercitationem delectus? Consequuntur delectus quod quo temporibus quos?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/sorteio 2.jpg_large" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-gift-fill"></i>
+                            PC Gamer
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sit veniam dolor architecto odio provident ex voluptate perspiciatis magni officiis, maxime ipsum exercitationem delectus? Consequuntur delectus quod quo temporibus quos?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./img/sorteio 3.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-gift-fill"></i>
+                            Game Pass + Diablo IV
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sit veniam dolor architecto odio provident ex voluptate perspiciatis magni officiis, maxime ipsum exercitationem delectus? Consequuntur delectus quod quo temporibus quos?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="store" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossa <span class="text-clored">loja</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-store">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#steam" class="fw-bold text-start nav-link text-colored active">Steam</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#playstation" class="fw-bold text-start nav-link text-colored">Playstation</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gamepass" class="fw-bold text-start nav-link text-colored">Gamepass</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gift" class="fw-bold text-start nav-link text-colored">Gift card</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="steam">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src=".//img/eldenring.webp" alt="elden ring">
+                                        <h5 class="text-colored fw-bold mt-2">Elden Ring</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src=".//img/deadbydaylight.webp" alt="dead by daylight">
+                                        <h5 class="text-colored fw-bold mt-2">Dead by Daylight</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/ready or not.jpg" alt="ready">
+                                        <h5 class="text-colored fw-bold mt-2">Ready or not</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/starfield-mini.avif" alt="starfield">
+                                        <h5 class="text-colored fw-bold mt-2">Starfield</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="playstation">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/god_of_war.png" alt="god of war">
+                                        <h5 class="text-colored fw-bold mt-2">God of War Ragnarok</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/thelast.webp" alt="the last of us ">
+                                        <h5 class="text-colored fw-bold mt-2">the last of us 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="gamepass">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/game pass.png" alt="gamepass">
+                                        <h5 class="text-colored fw-bold mt-2">Gamepass - 1 mês</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./img/game pass.png" alt="gamepass">
+                                        <h5 class="text-colored fw-bold mt-2">Gamepass - 3 meses</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-clored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 ">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 ">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem (opcional)</label>
+                                <textarea id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <span>Redes  sociais</span>
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored" fs-4>
+                                <i class="bi bi-cursor-fill"></i>
+                                <span>Endereço</span>
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n°123, Bairro Teste - Joinville - SC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
